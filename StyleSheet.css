@@ -1,0 +1,117 @@
+﻿* {
+    margin: 0;
+    padding: 10px; /* Added unit to padding */
+    font-family: sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: grey;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto; /* Changed Auto to auto */
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+        text-align: center;
+    }
+
+        nav ul li a {
+            text-decoration: none; /* Changed white to none */
+            color: black;
+            font-weight: bold;
+        }
+
+            nav ul li a:hover {
+                color: white;
+            }
+
+.detel {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+    .detel h {
+        font-size: 50px;
+        color: #212121;
+        margin-bottom: 20px;
+    }
+
+span {
+    color: orange;
+    text-align: center;
+    width: 100%;
+}
+
+.detel p {
+    color: orange;
+    line-height: 22px;
+}
+
+/* Corrected syntax error */
+.detel {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+    .images img {
+        height: 40%;
+        position: absolute;
+        left: 70%;
+        bottom: -1%;
+        transform: translateX(-50%); /* Added semicolon */
+        transition: bottom 1s, left 1s, top 5s; /* Added semicolon */
+    }
+
+    /* Fixed typo: .image should be .images */
+    .images:hover .shape {
+        bottom: 60px;
+        width: 40%;
+    }
+
+    .images:hover .girl {
+        left: 45%;
+    }
+
+h1 {
+    background: black;
+    color: white;
+    text-align: center; /* Removed width */
+}
+
+ul {
+    background: orange;
+    color: white;
+    text-align: center;
+}
+
+p {
+    background: black;
+    color: white;
+    text-align: center; /* Removed width */
+}
